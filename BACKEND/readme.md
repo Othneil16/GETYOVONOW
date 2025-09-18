@@ -102,7 +102,3 @@ Othneil Victory
 
 📧 othneilvictory16@gmail.com
 
-
-
-knjn;oino;
-jbvlhvb.uvblj

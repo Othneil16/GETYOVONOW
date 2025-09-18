@@ -33,8 +33,8 @@ backend/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/momentumcom/momentom.git
-cd momentom-backend
+git clone https://github.com/Othneil16/GETYOVONOW.git
+cd BACKEND
 ```
 
 ### 2. Install Dependencies

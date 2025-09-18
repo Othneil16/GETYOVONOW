@@ -19,7 +19,7 @@ This project provides secure and scalable APIs for user and vendor authenticatio
 ## 📁 Folder Structure  
 
 backend/
-├── controllers/ # Business logic
+- ├── controllers/ # Business logic
 ├── routes/ # API endpoints
 ├── middleware/ # Auth, error handling
 ├── prisma/ # Prisma schema & migrations
@@ -27,8 +27,7 @@ backend/
 ├── .env # Environment variables
 └── server.ts # App entry point
 
-yaml
-Copy code
+
 
 ---
 
@@ -40,27 +39,22 @@ Copy code
    cd Backend
 Install Dependencies
 
-bash
-Copy code
 npm install
 Configure Environment Variables
 Create a .env file and add:
-
 env
-Copy code
+
 PORT=5000
 DATABASE_URL="postgresql://user:password@localhost:5432/momentom_db"
 JWT_SECRET=your_jwt_secret
 Set Up the Database
 
-bash
-Copy code
+
 npx prisma migrate dev --name init
 npx prisma generate
 Run the Server
 
-bash
-Copy code
+
 npm run dev
 🧪 API Endpoints
 Feature	Method	Endpoint
@@ -86,19 +80,10 @@ Input validation planned using Zod
 Fork the repository
 
 Create a new branch:
-
-bash
-Copy code
 git checkout -b feature-name
 Commit your changes:
-
-bash
-Copy code
 git commit -m "Added feature"
 Push to the branch:
-
-bash
-Copy code
 git push origin feature-name
 Open a Pull Request
 
